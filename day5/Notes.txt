@@ -17,7 +17,6 @@ offerFirst(E element):This method is used to add the specified element at the FR
 offerLast(E element):This method is used to insert the specified element at the END of the list.
 
 
-
 Student Grading System:
 menu:
 1.Add student
@@ -26,3 +25,8 @@ menu:
 4.Find lowest grade student
 6.display student details
 Enter your choice
+
+
+Write a program to find the middle node of a singly linked list,if the length of the 
+list is even,return the second middle node.
+Implement a method that takes head of the linked list as input and returns the middle node
