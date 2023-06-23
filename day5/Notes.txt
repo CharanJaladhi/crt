@@ -10,6 +10,15 @@ peek():fetches the head of the list,but not removes it.
 peekFirst():it fetches the head of the list or returns NULL if list is empty.
 peekLast():it fetches the tail of the list or returns NULL if list is empty.
 pollFirst():This method fetches and removes the FIRST element of the list or returns null ifthe list is empty.
+
+Student Grading System:
+menu:
+1.Add student
+2.Calculate avg grade
+3.Find highest grade student
+4.Find lowest grade student
+6.display student details
+Enter your choice
 pollLast():This method fetches and removes the LAST element of the list or returns null ifthe list is empty.
 poll():This method fetches and removes the FIRST element of the list .
 offer(E element):This method is used to add the specified element at the TAIL of the list.
