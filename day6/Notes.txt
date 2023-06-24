@@ -73,6 +73,10 @@ list, and the list reference is stored in the array index.
 9. keySet(): used to iterate over the key/value pair.
 
 
+TASK:Dictionary: 
+A common use case of Hashtable is in implementing a Dictionary.
+You can use a HashTable to store as keys and their corresponding definition values.
+
 
 HashMap:
 Hashmap in java is the implementation of map,which is a key-value mapping.
