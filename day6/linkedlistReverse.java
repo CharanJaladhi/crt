@@ -44,6 +44,9 @@ public class linkedlistReverse{
             current.next=prev;
             prev=current;
             current=Next;
+            //HERE CURRENT BECOMES NULL AT THE END
+            //LATER WE ARE GOING TO INITIALIZE Next WITH current.next
+            //SO TO NOT RAISE INDEXOUT OF BOUND EXCEPTION WE ARE BREAKING IT.
             if(current==null)
             break;
             Next=current.next;
