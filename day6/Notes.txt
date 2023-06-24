@@ -13,8 +13,8 @@ How are duplicates are removed in unsorted linked list?
 Task-3:
 Scenario:
 Contact ManagementSystem:
-You are asked with implem,enting a Contact management system
-using as singly linkedlist.The contact managaement system allows user 
+You are asked with implementing a Contact management system
+using as singly linkedlist.The contact management system allows user 
 to store and manage their contacts, including adding new contacts,
 searching for contacts and displaying all contacts.
 REQUIREMENTS:
@@ -29,3 +29,69 @@ the following methods.
 *searchContact(String name):Searches for a contact by name and returns
 the contact information if found.
 *displayContact():Displaying all the contacts in the contact list.
+
+Instructions:
+
+Implement the Contact class with the necessary properties and constructors.
+
+Implement the ContactList class. Use a singly linked list to manage the contacts in the contact list.
+ You can define a Node class to represent each node in the linked list. The Node class should have a 
+ Contact object and a reference to the next node.
+
+Implement the addContact(Contact contact) method to add a new contact to the contact list.
+ Create a new node with the given contact and update the necessary pointers.
+
+Implement the searchContact(String name) method to search for a contact by name in the contact list.
+ Traverse the linked list and compare the name of each contact with the given name. If a match is found, return the contact information.
+
+Implement the displayContacts() method to display all the contacts in the contact list.
+ Traverse the linked list and print the information of each contact.
+
+Test your implementation by creating an instance of the ContactList class and performing
+ various operations like adding contacts, searching for contacts, and displaying all contacts.
+
+
+
+ HashMap in java:
+ A Hashtable in java is a data structure that maps keys to values.It is similar to the
+ map interface and is implemented by the 'java.util.Hashtableclass' It is a key-value pair
+ collection where any non-null object can be used as a key or value.
+
+ The internal working of a Hashtable:
+1. The Hash table data structure is a array of buckets.Where each bucket can store
+multiple key/value pairs.
+2. The Hash function is used to determine the index of the bucket where the key/value pair
+should be stored.
+3. If two unequal objects have the same hashcode, it is called collision.To resolve collisions,
+Hashtable uses an array of list.The pair mapped to single bucket(arrayIndex) are stored in a
+list, and the list reference is stored in the array index.
+4. The equal(): method is used to determine if two objects are equal or not.
+5. put(): method is used to create a Hashtable and add key/value pairs to.
+6. get(): used to retrieve a value from the HashTable.
+7. remove(): removes a specified entry (key & its corresponding value.)
+8. containsKey(): used to checks if key exists in the Hashtable.
+9. keySet(): used to iterate over the key/value pair.
+
+
+
+HashMap:
+Hashmap in java is the implementation of map,which is a key-value mapping.
+
+example:create HashMap in java
+Hashmap<k,v> languages=new HashMap<>();
+Hashmap<String,Integer> languages=new HashMap<>();
+//ADD ELEMENTS INTO HASHTABLE
+languages.put("Java", 8); 
+languages.put("JavasScript", 1);
+languages.put("Python", 3);  
+System.out.println("HashMap:"+languages);
+
+
+Constructor: Hashmap()
+
+syntax:
+HashMap<k,v> hm=new HashMap<k,v>();
+
+Counting frequencies:
+Use write a program using hash table or hash map to count the occurence of words in a text document
+The words can be used as keys and its frequency can be used as value.
