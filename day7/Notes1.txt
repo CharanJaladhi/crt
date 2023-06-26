@@ -1,0 +1,223 @@
+What is HTML?
+HTML: Tag based language.
+Creates elements in the web page.
+Create a basic appearance to the web page.
+
+CSS:Property based language 
+Create styles in the web pages.
+Add beauty to the web page
+
+JavaScript: Statement-based programming language.
+Create functionality in the webpage.
+Makes the web page interactive to the user.
+
+Features of HTML:
+Markup language
+Executed by all browsers
+Not a case sensitive language.
+
+History:
+Developed by Tim Berners Lee in 1991.
+HTML 1.0 Late 1991
+HTML 2.0 1995
+HTML 3.0 1997
+HTML 4.0 Around 1997
+HTML 5.0 2014
+HTML 5.1 2016
+HTML 5.2 2017
+
+Definition: <html>,<head>,<title>,<body>,<DOCTYPE>,<meta>,<style>
+
+Tables: <tables>,<tr>,<th>,<td>,<caption>,<thead>,<tbody>,<tfoot>
+
+General: <blackquote>,<abbr>,<code>,<ins>,<del>,<details>,<summary>,<dialog>,<kbd>,<mark>,<meter>
+,<progress>,<hr>,<time>
+
+Semantic: <div>,<aside>,<header>,<footer>,<nav>,<section>,<span>
+
+Lists: <dl>,<dd>,<dt>,<ul>,<ol>,<li>
+
+Resources: <link>,<script>
+
+Text: <b>,<i>,<u>,<sup>,<sub>,<br>,<em>,<h1>......<h6>,<p>,<pre>,<strong>
+
+Media: <img>,<audio>,<video>,<source>,<area>,<canvas>,<svg>,<embed>,<figure>,<figcaption>,<map>,
+<picture>,<track>
+
+Forms: <form>,<input>,<textarea>,<select>,<option>,<optgroup>,<label>,<button>,<fieldset>,
+<legend>,<datalist>,<output>
+
+Links & Frames: <a>,<iframe>
+
+Anatomy of HTML Tag:
+Tag: Command to browser,to display something
+Types of Tags:
+Un-paired Tags: Just a command to a browser.
+Paired Tags: Defines starting and ending point.
+
+Syntax: <tag>  </tag>
+
+HTML Document Structure:
+<html>
+    <head>
+        //Document Details
+    </head>
+    <body>
+        //Maintains All the tags for Visible Content
+    </body>
+</html>
+
+Creating First HTML Application:
+Install:
+Code Editor:Visual Studio| Sublime Test| Atom.
+Browsers:Google Chrome| Mozilla Firefox
+Create: Write code in the code Editor
+Save the file with ".html"
+Run:double click the HTML.
+
+<!Doctype html>:This doctype is standardized and recommended by the World Wide Web Consortium(W3C).
+When the browser encounters this doctype, it knows to interrupt the HTML code that follows as HTML.
+
+Heading and Paragraph:
+Headings: <h1> </h1>
+<h2>..</h2>
+<h3>...</h3>
+<h4>.....</h4>
+<h5>.....</h5>
+<h6>......</h6>
+
+Paragraph:<p></p>
+
+Horizontal Ruler:<hr>(Unpaired tag) Creates horizontal ruler(seperator line)
+can be used in body
+
+<div>(Division):
+<div> </div>
+Creates division or section of the document.
+Acts as a container of many other HTML Tags.
+
+
+What is CSS?
+CSS: Property based language
+Create styles to the web page
+Adds beauty to the web page
+
+Features:Not a case sensitive languageDefines Key-value pairs.
+Eg:property:value;
+Access HTML elements and add styles
+
+History:
+Developed by Hakon Wilum Lie and Bert Bos in 1996.
+CSS1: 1996
+CSS2: 1998
+CSS2.1: 2011
+CSS3: 2017 to till now
+Anatomy of CSS Styles:
+selector
+{
+    property:value;
+
+}
+
+Tag Selectors:
+        tag:eg: div
+        Select all instances of a specific tag.
+        No symbol just write name of the tag.
+
+ID Selector: #id #goa
+ID cant be duplicate in the webpage
+eg: #idselector{
+    property:value;
+}
+
+
+Class Selector:
+.class
+<tag class="your class"></tag>
+selects all the instances of a tag based on "class name"
+. is the symbol of class selector
+class is used to represent similar elements
+class can be duplicate in web page
+
+Font Styles:
+normal | italic;
+
+
+Font-Size:
+font-size:number;
+eg:font-size:20px;
+specific fontsize
+default is 10px
+Important size units:
+px=pixels(dots)
+em=EM.current fontsize(Ex:10px)
+pt=points. 1/72 of an inch
+%percent. 100%=current fontsize(10px)
+vh=1% of view port height
+vw=1% of viewpoint width
+
+Font-Weight:
+font-weight:normal | bold | bolder | lighter | number;
+Eg: font-weight:bold;
+
+specifies the thickness of text i.e normal or bold or bolder or lighter or any number
+400=normal
+700=bold
+
+Font Variant:
+font-variant:small caps(Small Caps are small letters that appear as capital) | normal;
+Eg:font-variant:small-capsThe browser displays the text in small-caps font
+
+Color:
+color:hexadecimal_number;
+Eg: color:#ff69b4;
+
+Possible Values:
+1.Hexadecimal number:#xxxxxx
+2.rgb(red, green, blue): each can be 0 to 255
+3.rgba(red, blue, green ,opacity): opacity can be 0 to 1
+4.color name:Limited color names
+color:rgba(8,196,64,0.8);
+
+Common Hexadecimal colors
+
+Text-Align
+text-align: left | right | center | justify;
+
+Text-Decoration
+text-decoration: text-decoration-line text-decoration-color text-decoration-style
+Eg:text-decoration:underline red waved;
+Text Decoration available:
+none|overline|underlined|blink|strikes-out
+
+Text-Transform
+text-transform:none|uppercase|lowercase|capitalize;
+
+Text-indent
+syntax: text-indent:number;
+Eg:text-indent:50px;
+Specifies left indentation of the first line in a text block.Default is "0"
+
+Letter-spacing:
+letter-spacing:number;
+letter-spacing:5px;
+
+specifies space between characters in the text.
++ve,-ve numbers are allowed
+Default:"normal";
+
+Line-Height:
+line-height:number;
+eg: line-height:200%;
+specifies height of line of text,
+Default is "normal"
+
+Word-spacing:
+word-spacing:number;
+word-spacing:40px;
+Specifies spacing between words.
+default:"normal"(0.25em)
+
+TASK OF THE DAY:
+My Super Sunday
+
