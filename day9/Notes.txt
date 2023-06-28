@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+        <....content....>
+</body>
+</html>
+
+In the above example:
+<!DOCTYPE HTML> declaration specifies that the document type is HTML.5
+The <html> tag marks the start of the an HTML document and contains the entire document
+The lang="en" attribute in the <html> tag indicates that the document is written in English.
+<head> section contains meta data and define the document title,character according
+linked stylesheets, scripts, and other information.
+
+The <meta charset="UTF-8"> tag sets the character according to UTF-8,
+which supports a wide range of characters.
+<title> tag defines the title of the web page, which appears in the browsers title bar or tab.
+<body> tag defines the main content of the web page.
+----------------------------------------------------------------------------------------
+<meta name="viewpoint" content="width-device-width, initial-scale="1.0"">
+The viewpoint meta tag is used to control the layout and behaviour of the web page on different
+devices, especially mobile devices.
+The name="viewpoint" attribute specifies that this meta tag is relate to the view point.
+The content="width-device-width..."> attribute value pair sets the width of the 
+viewpoint to the devices width and sets the initial zoom level to 1.0
+The meta tag is crucial for creating a responsive design that adapts to various scren sizes.
+------------------------------------------------------------------------------------------
+<link href="css/style.css" rel="stylesheet/">
+1. the <link> tag is self closing tag used to include external resources in the HTML document.
+2. href: attribute specifies the path or URL of the external CSS file.
+3. rel: attribute indicates the relation ship between the HTML document and the linked resources.
+-------------------------------------------------------------------------------------------
+OverFlow:auto; CSS property is used to control the behaviour of content
+that exceeds the size of the container
