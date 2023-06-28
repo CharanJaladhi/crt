@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+        <....content....>
+</body>
+</html>
+
+In the above example:
+<!DOCTYPE HTML> declaration specifies that the document type is HTML.5
+The <html> tag marks the start of the an HTML document and contains the entire document
+The lang="en" attribute in the <html> tag indicates that the document is written in English.
+<head> section contains meta data and define the document title,character according
+linked stylesheets, scripts, and other information.
+
+The <meta charset="UTF-8"> tag sets the character according to UTF-8,
+which supports a wide range of characters.
+<title> tag defines the title of the web page, which appears in the browsers title bar or tab.
+<body> tag defines the main content of the web page.
+----------------------------------------------------------------------------------------
+<meta name="viewpoint" content="width-device-width, initial-scale="1.0"">
+The viewpoint meta tag is used to control the layout and behaviour of the web page on different
+devices, especially mobile devices.
+The name="viewpoint" attribute specifies that this meta tag is relate to the view point.
+The content="width-device-width..."> attribute value pair sets the width of the 
+viewpoint to the devices width and sets the initial zoom level to 1.0
+The meta tag is crucial for creating a responsive design that adapts to various scren sizes.
+------------------------------------------------------------------------------------------
+<link href="css/style.css" rel="stylesheet/">
+1. the <link> tag is self closing tag used to include external resources in the HTML document.
+2. href: attribute specifies the path or URL of the external CSS file.
+3. rel: attribute indicates the relation ship between the HTML document and the linked resources.
+-------------------------------------------------------------------------------------------
+OverFlow:auto; CSS property is used to control the behaviour of content
+that exceeds the size of the container
+--------------------------------------------------------------------------------------------
+Form:
+syntax:
+<form>
+Input,text area, select, button, label, fieldset,datalist tags here
+</form>
+Creates a form with a set of the form elements.
+Attribute Reference of <form>
+1. action-"url"
+Specifies the target server url,to which the form to be submitted.
+2. method="get|post"
+Specifies get request or post request, through which the form should be submitted.
+In case of "get",the form elements(a.k.a parameters) submitted as specified string.
+eg: target="frame name"
+specifies the frame name in which, the target url should be opened from submission name="name"
+Represents logical name of the form.
+novalidate="novalidate" Disable browser built in validation
+-----------------------------------------------------------------
+<input>
+<input type="text">
+<input type="password">
+<input type="checkbox">
+<input type="radio">
+<input type="email">
+<input type="submit">
+<input type="reset">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="time">
+<input type="month">
+<input type="week">
+<input type="file">
+<input type="url">
+<input type="number">
+<input type="range">
+<input type="search">
+<input type="image">
+Attribute references of <input>
+type="text[password]...."
+specifies type of form elements such as textbox, checkbox,radio button etc.
+2. id="some id"
+specifies identification name of form element, used to refer form element.
+3. class"some class"
+specifies CSS class name of the form element to apply styles.
+4. value ="some value"
+specifies current/default value of the form element
+5. readonly="readonly"
+represents a readonly textbox, so the user cant modify the value.
+6. disable="disabled"
+Disables the form element, so the value and events will be blocked.
+7. src="filename.jpg"
+Specifies source image path in case of thype <input type="image">
+8.autofocus="autofocus"
+enables the browser in place the cursor in the form element by default, while opening the web page.
+9. multiple="multiple"
+Allows the user to select multiple images,in case of input of <input type="file">
+10. placeholder="some text"
+specifies the hint text that should be appear to the user, In case of value is empty.
+11. steps="number"
+specifies the step value for increment/decrement in case of<input type="number">
+12. tabindex="number"
+specifies Tab keyorder of the element
+13. required="required"
+specifies that the form element is mandatory.
+14. min="number"
+species the minimum value that is allowed in case of type="number" or type="range" or type="date"
+15. max="number"
+species the maximum value that is allowed in case of type="number" or type="range" or type="date"
+16. maxlength="number"
+specifies the max no of characters allowed in the text box.
+17. pattern="reg exp"
+specifies regular expression to validate the text box value
+18. list="id of datalist"
+specifies reference to the <datalist> tag, based on which the list of suggestions to be displayed in the 
+text box.
+19. formnovalidate="novalidate"
+Disables the browser bult in validations
+Used as alternative to <form nonvalidate="nonvalidate">
+20. form="id of form"
+Specifies list of id's of forms, to which the form elements belongs to.
