@@ -45,3 +45,76 @@ the browser automatically, which ever is compatible with the browser.
 ----------------------------------------------------------------------------------
 youtube video in HTML:
 <iframe width="pixels" height="px" src="" frameborder="0" allowfullscreen></iframe>
+-------------------------------------------------------------------------------------
+JAVA SCRIPT
+Programming language to create functionality to the web page. Mainly used to manipulate
+the elements
+Can perform calculations, adding,removing elements to the web page.
+Adds user interaction in the web page.
+Features:
+It is a case sensitive language.
+Integrated language.
+Access HTML elements and add styles.
+Developed by Bredan Eich at Netscape corporation.
+Sample Code:
+var a=10;
+var b=20;
+var c=a+b;
+console.log(c);
+
+Example java script code:
+//Javascript code to display a welcome message.
+var name=("Enter your name:");//Prompt the user for their name
+var message="hello,"+name+" !Welcome to Javascript"
+alert(message);//Display a message with the user name
+1.prompt():Function used to display dialog box asking the user to enter something
+2. + operator:used to concatination
+3. alert():function to display a dialog box with the welcome message.
+To run this code in HTML file includes the java script code within <script> tag.
+Syntax:
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            //Java script code goes here .............
+        </script>
+    </body>
+</html>
+alternatively, you can save the Javascript code in a seperate ".js" file and include it using the
+<script src="filename.js"></script>
+---------------------------------------------------------------------------------------
+Variables in Javascript:
+In javascript, variables are used to store and manipulate data. They provide a way to store
+values of different types,cas numbers, strings, boolean, arrays, objects and more.
+1. variables declaration: To declare variables in javascript, use the 'var' or 'let' or
+'const' keyword followed by the variable name.
+Eg: var age; //variable declaration using var
+let name; // variable declaration using 'let'
+const pi=3.14; // variable declaration using 'const'
+1. The var keyword used to declare variables traditionally.
+2. The let keyword used for block scoped variables, such they are only accessible within the block 
+of code when they are defined.
+3. The const keyword is used for constants, which are variables that cannot be re-assigned
+after they are declared. They must be initialized with a value.
+
+1. Variable Initialization:
+Eg: var age=19; //Variable declare and initialized
+let name="Zames";
+
+Variable scope: Java script has function scope and block scope.
+1. Variables declared with var have function scope. They are accessible throught out the function in 
+which they are defined regardless of block scope.
+2. Variables declared with 'let' and 'const' have block scope. They are only accesible with in the block of code 
+where they are defined.
+(eg: if block)
+------------------------------------------------------------------------------------------------
+Template literals in java script:
+Template literals also known as template strings, are a feature of java script thatallows you to
+embed expressions with in a string using backticks(` `).
+
+
+
+MICROSOFT AZ900
