@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssstylesheet.css">
+    <title>Calculator</title>
+    <style>
+        .container{
+            background-color: rgb(100, 241, 147);
+            width:400px;
+            height:300px;
+            padding:10px;
+            text-align: center;
+            margin-top: 150px;
+            margin-left:525px;
+            border-radius:10px;
+            box-shadow: 0px 0px 2px 2px #7c7c7c;
+        }
+        .container:hover{
+             transform:scale(1.1);
+             transition: transform 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <!--nav bar starts here--->
+    <div id="navbar">
+        <div class="navbar-brand">India Tourism</div>
+        <div class="nav">
+            <ul>
+                <li><a href="classselector.html">Home</a></li>
+                <li><a href="states.html">States</a></li>
+                <li><a href="htmlTable.html">Capitals</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="destination.html">Destination</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- nav bar ends here -->
+    <div class="container">
+        <h1>Calculator</h1>
+        <div>Number 1: <input id="num1" type="number"></div>
+        <div>Number 2: <input id="num2" type="number"></div>
+        <div>
+            <button onclick="add()">add</button>
+            <button onclick="sub()">Subtract</button>
+            <button onclick="mul()">Multiply</button>
+            <button onclick="division()">Division</button>
+        </div>
+        <div> Result: <input id="num3" type="number" disabled></div>
+    </div>
+    <script>
+        function add(){
+            var x=document.getElementById("num1").value;
+            var y=document.getElementById("num2").value;
+           var result=parseInt(x)+parseInt(y);
+            document.getElementById("num3").value=result;
+        }
+        function sub(){
+            var x=document.getElementById("num1").value;
+            var y=document.getElementById("num2").value;
+            var result=parseInt(x)-parseInt(y);
+            document.getElementById("num3").value=result;
+        }
+        function mul(){
+            var x=document.getElementById("num1").value;
+            var y=document.getElementById("num2").value;
+            var result=parseInt(x)*parseInt(y);
+            document.getElementById("num3").value=result;
+        }
+        function division(){
+            var x=document.getElementById("num1").value;
+            var y=document.getElementById("num2").value;
+            var result=parseInt(x)/parseInt(y);
+            document.getElementById("num3").value=result;
+        }
+    </script>
+</body>
+</html>
